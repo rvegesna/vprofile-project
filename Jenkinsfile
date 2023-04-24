@@ -22,7 +22,5 @@ pipeline {
                 sh 'cd /var/lib/jenkins/playbook; ansible-playbook -i hosts deploy.yml'
             }
         }
-    }
-}
-    }
+ }
 }
